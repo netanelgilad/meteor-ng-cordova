@@ -1,6 +1,6 @@
 Package.describe({
   name: 'netanelgilad:ng-cordova',
-  version: '0.1.12-alpha',
+  version: '0.1.13',
   // Brief, one-line summary of the package.
   summary: 'AngularJS Cordova wrappers for common Cordova plugins.',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.1');
-  api.use('angularjs:angular@1.3.15', 'client');
+  api.use('angular:angular@1.3.15_1', 'client');
   api.addFiles('ng-cordova.js', 'client');
 });
 
